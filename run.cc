@@ -75,5 +75,9 @@ int main() {
   cout << "measurement of experiment A in bin 27: " << datA.measurement(27)
        << endl;
 
+  std::vector<Data> data_sets;
+  string  exp_A, exp_B, exp_C, exp_D;
+  
+
   return 0;
 }

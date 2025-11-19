@@ -31,6 +31,12 @@ Data::Data(const std::string& filename) {
     file >> entries;
     m_data.push_back(entries);
   }
+  // read in error from file: m_siz bin contents
+  for (int i = 0; i < size; ++i) {
+    double entries;
+    file >> entries;
+    m_error.push_back(entries);
+  }
 
   // done! close the file
   file.close();
