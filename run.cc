@@ -77,7 +77,6 @@ int main() {
 
   std::vector<Data> data_sets;
   string  exp_A, exp_B, exp_C, exp_D;
-  for(double entry:)
   
 
   return 0;
